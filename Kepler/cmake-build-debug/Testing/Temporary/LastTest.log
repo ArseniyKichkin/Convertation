@@ -1,0 +1,30 @@
+Start testing: Apr 22 16:35 MSK
+----------------------------------------------------------
+1/1 Testing: run_test_Kepler
+1/1 Test: run_test_Kepler
+Command: "/home/arsenii/Kepler/cmake-build-debug/tests/run_test_Kepler"
+Directory: /home/arsenii/Kepler/cmake-build-debug/tests
+"run_test_Kepler" start time: Apr 22 16:35 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arsenii/Kepler/tests/googletest-master/googletest/src/gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from abcd
+[ RUN      ] abcd.abcde
+8138.38
+1[       OK ] abcd.abcde (0 ms)
+[----------] 1 test from abcd (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"run_test_Kepler" end time: Apr 22 16:35 MSK
+"run_test_Kepler" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 22 16:35 MSK

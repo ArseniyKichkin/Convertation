@@ -1,0 +1,16 @@
+# ninja log v5
+2	3482	1650632901612800728	tests/googletest-master/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	4e1ab90c684554a4
+69	94	1650633056609556737	lib/libgmockd.a	5168fd596d5ad25
+95	103	1650633056617556682	lib/libgmock_maind.a	94ffc1691d27172a
+2	1711	1650633398236752813	tests/CMakeFiles/run_test_Kepler.dir/test_Kepler.cpp.o	b5dd9f0ef622d22d
+1	5541	1650632903668828849	tests/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o	2b69069065cabe08
+69	81	1650633056593556847	lib/libgtest_maind.a	99c61e87b2f4ea17
+0	293	1650634531863952173	build.ninja	fb4e19e3c6a4f845
+1	4384	1650632902512813040	tests/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o	6fc16a41c7bcf6b5
+1711	1948	1650633398472753110	tests/run_test_Kepler	c55f63d52f3a8ba3
+1	493	1650634190049061613	CMakeFiles/Kepler.dir/Kepler.cpp.o	3025d70bba8476ef
+2	7702	1650632905828858377	tests/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	d3d58a11b1401199
+493	499	1650634190057061677	libKepler.a	e5cd3f641a32bf8
+1	69	1650633056581556929	lib/libgtestd.a	8bafb2647f0cc843
+0	510	1650634539164016824	CMakeFiles/Kepler.dir/Kepler.cpp.o	3025d70bba8476ef
+510	515	1650634539168016859	libKepler.a	e5cd3f641a32bf8
