@@ -38,6 +38,15 @@ std::vector<T> operator*(const std::vector<T> &b, const T &alpha) {
 }
 
 template<typename T>
+std::vector<T> vector_product(const std::vector<T> &first, const std::vector<T> &second) {
+    std::vector<T> result(3);
+    result.at(0) = first.at(1) * second.at(2) - first.at(2) * second.at(1);
+    result.at(1) = first.at(2) * second.at(0) - first.at(0) * second.at(2);
+    result.at(2) = first.at(0) * second.at(1) - first.at(1) * second.at(0);
+    return result;
+}
+
+template<typename T>
 T norm(const std::vector<T> &vector) {
     T norm = static_cast<T>(0);
     for (const auto & elm: vector) {

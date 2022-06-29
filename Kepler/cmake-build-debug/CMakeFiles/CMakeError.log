@@ -1,11 +1,11 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/arsenii/Kepler/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/snap/clion/189/bin/ninja/linux/ninja cmTC_8b519 && [1/2] Building C object CMakeFiles/cmTC_8b519.dir/src.c.o
-[2/2] Linking C executable cmTC_8b519
-FAILED: cmTC_8b519 
-: && /usr/bin/cc  -rdynamic CMakeFiles/cmTC_8b519.dir/src.c.o -o cmTC_8b519   && :
-/usr/bin/ld: CMakeFiles/cmTC_8b519.dir/src.c.o: в функции «main»:
+Run Build Command(s):/snap/clion/193/bin/ninja/linux/ninja cmTC_289d6 && [1/2] Building C object CMakeFiles/cmTC_289d6.dir/src.c.o
+[2/2] Linking C executable cmTC_289d6
+FAILED: cmTC_289d6 
+: && /usr/bin/cc  -rdynamic CMakeFiles/cmTC_289d6.dir/src.c.o -o cmTC_289d6   && :
+/usr/bin/ld: CMakeFiles/cmTC_289d6.dir/src.c.o: в функции «main»:
 src.c:(.text+0x46): неопределённая ссылка на «pthread_create»
 /usr/bin/ld: src.c:(.text+0x52): неопределённая ссылка на «pthread_detach»
 /usr/bin/ld: src.c:(.text+0x5e): неопределённая ссылка на «pthread_cancel»
@@ -38,10 +38,10 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/arsenii/Kepler/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/snap/clion/189/bin/ninja/linux/ninja cmTC_5e6b6 && [1/2] Building C object CMakeFiles/cmTC_5e6b6.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_5e6b6
-FAILED: cmTC_5e6b6 
-: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_5e6b6.dir/CheckFunctionExists.c.o -o cmTC_5e6b6  -lpthreads && :
+Run Build Command(s):/snap/clion/193/bin/ninja/linux/ninja cmTC_ab8fa && [1/2] Building C object CMakeFiles/cmTC_ab8fa.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_ab8fa
+FAILED: cmTC_ab8fa 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_ab8fa.dir/CheckFunctionExists.c.o -o cmTC_ab8fa  -lpthreads && :
 /usr/bin/ld: невозможно найти -lpthreads
 collect2: error: ld returned 1 exit status
 ninja: build stopped: subcommand failed.
